@@ -18,10 +18,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Mouse0)) {
+        if (Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.Space)) {
             modifyVerticalSpeed(gravityScale * -1);
             Debug.Log("Click");
-        } else if (Input.GetKeyUp(KeyCode.Mouse0)) {
+        } else if (Input.GetKeyUp(KeyCode.Mouse0) || Input.GetKeyUp(KeyCode.Space)) {
             modifyVerticalSpeed(gravityScale);
         }
     }
