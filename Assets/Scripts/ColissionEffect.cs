@@ -1,18 +1,22 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ColissionEffect : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is create
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-
-        Rigidbody2D rb = collision.collider.GetComponent<Rigidbody2D>();
-
-        if(rb.TryGetComponent(out PlayerMovement playerMovement)){
-
-            playerMovement.speed=3f;
+        Debug.Log(collider.gameObject.name);
+        if(collider.TryGetComponent(out PlayerMovement playerMovement))
+        {
+            playerMovement.speedMultiplier=.5f;
         }
+    }
 
+    void OnTriggerExit2D(Collider2D collider)
+    {
+        if(collider.TryGetComponent(out PlayerMovement playerMovement))
+        {
+            playerMovement.speedMultiplier=1f;
+        }
     }
 }

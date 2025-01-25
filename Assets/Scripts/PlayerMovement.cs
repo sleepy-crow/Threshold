@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     private bool _end;
     
     public float speed;
+    public float speedMultiplier = 1;
 
     public string nextLevel;
     public float time;
@@ -23,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!_speedy && !_end)
             StartCoroutine(SpeedUp());
-        rb.linearVelocity = new Vector2(speed, 0);
+        rb.linearVelocity = new Vector2(speed * speedMultiplier, 0);
     }
 
     private IEnumerator SpeedUp()
