@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     
-    private Rigidbody2D _rb;
+    public Rigidbody2D rb;
     private bool _speedy;
     private bool _end;
     
@@ -16,15 +16,14 @@ public class PlayerMovement : MonoBehaviour
     public float time;
     void Start()
     {
-        _rb = GetComponent<Rigidbody2D>();
-        _rb.linearVelocity = new Vector2(speed, 0);
+        rb.linearVelocity = new Vector2(speed, 0);
     }
 
     void FixedUpdate()
     {
         if (!_speedy && !_end)
             StartCoroutine(SpeedUp());
-        _rb.linearVelocity = new Vector2(speed, 0);
+        rb.linearVelocity = new Vector2(speed, 0);
     }
 
     private IEnumerator SpeedUp()
@@ -39,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("EndStop"))
         {
-            _rb.linearVelocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
             StartCoroutine(ChangeLevel());
         }
     }
