@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
     private bool _speedy;
     public float speed;
 
-    public float VerticalSpeed = 3f;
+    public float gravityScale;
 
 
 
@@ -16,18 +16,18 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            modifyVerticalSpeed(VerticalSpeed * -1);
+        if (Input.GetKey(KeyCode.Mouse0)) {
+            modifyVerticalSpeed(gravityScale * -1);
             Debug.Log("Click");
-        } else if (Input.GetKeyUp(KeyCode.Space)) {
-            modifyVerticalSpeed(VerticalSpeed);
+        } else if (Input.GetKeyUp(KeyCode.Mouse0)) {
+            modifyVerticalSpeed(gravityScale);
         }
     }
 
-    void modifyVerticalSpeed(float vertical) {
-        _rb.gravityScale = vertical;
-        Debug.Log("gravity = " + _rb.gravityScale);
+    void modifyVerticalSpeed(float gravityScale) {
+        _rb.gravityScale = gravityScale;
+        Debug.Log("gravityScale = " + gravityScale);
     }
 }
