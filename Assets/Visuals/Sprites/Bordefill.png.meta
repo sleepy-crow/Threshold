@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: b0acfb2f4c6de464e81a68006743780d
+guid: b52fa921830b97a4ba5b9dc36ff5e894
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1700375755392008945
-    second: L3_2p_0
-  - first:
-      213: -8822751416794429537
-    second: L3_2p_1
-  - first:
-      213: -8008400276054306790
-    second: L3_2p_2
-  - first:
-      213: 4471146250571195783
-    second: L3_2p_3
-  - first:
-      213: -7721701707698449527
-    second: L3_2p_4
+      213: -2115642911043410409
+    second: Bordefill_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,111 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: L3_2p_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1427
-        width: 3482
-        height: 451
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f0d3c2b624d0768e0800000000000000
-      internalID: -1700375755392008945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: L3_2p_1
-      rect:
-        serializedVersion: 2
-        x: 585
-        y: 791
-        width: 31
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f97c464d45a4f8580800000000000000
-      internalID: -8822751416794429537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: L3_2p_2
-      rect:
-        serializedVersion: 2
-        x: 1521
-        y: 1132
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1094a611627cd090800000000000000
-      internalID: -8008400276054306790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: L3_2p_3
-      rect:
-        serializedVersion: 2
-        x: 3167
-        y: 544
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 785ad1463d3bc0e30800000000000000
-      internalID: 4471146250571195783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: L3_2p_4
+      name: Bordefill_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3482
-        height: 396
+        width: 3476
+        height: 123
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9835b1b453107d490800000000000000
-      internalID: -7721701707698449527
+      spriteID: 7162fa74bf9b3a2e0800000000000000
+      internalID: -2115642911043410409
       vertices: []
       indices: 
       edges: []
@@ -225,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6c7eba2c39f9fcd459d98591fdfda25f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -234,12 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      L3_2p_0: -1700375755392008945
-      L3_2p_1: -8822751416794429537
-      L3_2p_2: -8008400276054306790
-      L3_2p_3: 4471146250571195783
-      L3_2p_4: -7721701707698449527
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

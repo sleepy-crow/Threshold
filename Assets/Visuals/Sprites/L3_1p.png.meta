@@ -125,11 +125,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 787
-        width: 760
-        height: 1085
+        y: 1396
+        width: 358
+        height: 476
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -151,7 +151,7 @@ TextureImporter:
         width: 8
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,59 +165,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: L3_1p_2
-      rect:
-        serializedVersion: 2
-        x: 587
-        y: 741
-        width: 13
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 68700e27fadac7470800000000000000
-      internalID: 8393774774569928582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: L3_1p_3
-      rect:
-        serializedVersion: 2
-        x: 684
-        y: 635
-        width: 10
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c509e9a08b5bed60800000000000000
-      internalID: 7920524977825711560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: L3_1p_4
       rect:
         serializedVersion: 2
         x: 938
-        y: 506
+        y: 1490
         width: 2538
-        height: 1366
+        height: 382
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,50 +187,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: L3_1p_5
-      rect:
-        serializedVersion: 2
-        x: 1514
-        y: 1026
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 82875195a2c807460800000000000000
-      internalID: 7237438714695481384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: L3_1p_6
-      rect:
-        serializedVersion: 2
-        x: 3005
-        y: 1211
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 133ebd92038b05a70800000000000000
-      internalID: 8813746987764278065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: L3_1p_7
       rect:
         serializedVersion: 2
@@ -283,7 +195,7 @@ TextureImporter:
         width: 3476
         height: 434
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -300,7 +212,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c9519197cea0ba9488bea059a967391c
     internalID: 0
     vertices: []
     indices: 
@@ -310,6 +222,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< Updated upstream
       L3_1p_0: -2967682007140988930
       L3_1p_1: 232760406706542174
       L3_1p_2: 8393774774569928582
@@ -318,6 +231,9 @@ TextureImporter:
       L3_1p_5: 7237438714695481384
       L3_1p_6: 8813746987764278065
       L3_1p_7: 3125572553039606888
+=======
+      L3_1p_2: 2038173784
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
