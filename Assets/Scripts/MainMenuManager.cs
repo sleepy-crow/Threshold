@@ -1,12 +1,17 @@
-using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class MainMenuManager : MonoBehaviour
 {
-    public void StartGame()
+    public void StGame()
     {
+        StartCoroutine(Intit());
+    }
+
+    private IEnumerator Intit()
+    {
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene("Level3");
     }
 }
