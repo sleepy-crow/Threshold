@@ -4,12 +4,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D _rb;
-    private bool executingCoroutine = false;
 
     public float gravityScale;
     public float increment;
 
-    private float timer = 0f;
+    private float _timer = 0f;
     private float delayTime = 0.05f;
 
 
@@ -18,20 +17,18 @@ public class PlayerController : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         
 
-        timer += Time.deltaTime;
-        if (timer >= delayTime) {
+        _timer += Time.deltaTime;
+        if (_timer >= delayTime) {
             if (Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.Space)) {
                 modifyVerticalSpeed(true);
-                Debug.Log("Click");
             } else if (_rb.gravityScale < gravityScale) {
                 modifyVerticalSpeed(false);
             }
-            timer = 0f;
+            _timer = 0f;
         }
         
     }
@@ -42,7 +39,5 @@ public class PlayerController : MonoBehaviour
         } else {
             _rb.gravityScale += increment;
         }
-        Debug.Log("gravityScale = " + gravityScale);
     }
-
 }

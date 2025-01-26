@@ -8,6 +8,9 @@ TagManager:
   - DeathObstacle
   - SlowDown
   - EndStop
+  - Warning
+  - Floor
+  - Rooft
   layers:
   - Default
   - TransparentFX
