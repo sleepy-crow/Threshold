@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LittleSocietyP_0: -8942761295139578075
+      LittleSocietyP_1: 8569104028567652509
+      LittleSocietyP_2: -1255604181316322069
+      LittleSocietyP_3: 3368606574538367560
+      LittleSocietyP_4: 1120876115062462610
+      LittleSocietyP_5: 1917564262864624900
+      LittleSocietyP_6: -6248258925913656765
+      LittleSocietyP_7: 1530619735491376703
+      LittleSocietyP_8: -8338134358136968284
+      LittleSocietyP_9: 4761694094055774114
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
