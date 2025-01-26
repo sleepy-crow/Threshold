@@ -3167,6 +3167,10 @@ PrefabInstance:
       propertyPath: speed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5463549667701933254, guid: 17e4e2af81836da4aadcedead7d39dde, type: 3}
+      propertyPath: nextLevel
+      value: Level3
+      objectReference: {fileID: 0}
     - target: {fileID: 6846916813436899056, guid: 17e4e2af81836da4aadcedead7d39dde, type: 3}
       propertyPath: increment
       value: 2
