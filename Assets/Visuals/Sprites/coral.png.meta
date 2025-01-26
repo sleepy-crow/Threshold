@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e0e14c4bd6599204c8d83e0f354bb549
+guid: b1b1276388b28e34bba97ccf0edd157b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7881571413208391433
-    second: World_0
+      213: 3273187744099624924
+    second: coral_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: World_0
+      name: coral_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1118
-        height: 1166
+        width: 844
+        height: 1917
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f027dbde880f9290800000000000000
-      internalID: -7881571413208391433
+      spriteID: cd7683249e2bc6d20800000000000000
+      internalID: 3273187744099624924
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      World_0: -7881571413208391433
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
