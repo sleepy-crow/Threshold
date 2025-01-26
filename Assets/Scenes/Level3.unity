@@ -596,6 +596,10 @@ PrefabInstance:
       propertyPath: nextLevel
       value: MainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 6846916813436899056, guid: 17e4e2af81836da4aadcedead7d39dde, type: 3}
+      propertyPath: increment
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8065741174519924754, guid: 17e4e2af81836da4aadcedead7d39dde, type: 3}
       propertyPath: fadeOut
       value: 
